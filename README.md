@@ -129,4 +129,4 @@ java -cp "bin:lib/*" org.junit.runner.JUnitCore edu.nyu.cs.TestClassName
 Windows users should replace the `:` in `"bin:lib/*"` with a semi-colon, `;`, i.e. `"bin;lib/*"`. You may also have to add the flag --enable-preview in front of java to make it work.
 
 ## How to submit this assignment
-Submit on Brightspace a zip file named "A3_complete_NYUnetID" containing your project folder called "A2_project_directory_NYUnetID", where NYUnetID should be replaced with your actual NYU net ID. The project folder should contain your source code and compiled code within the src and bin folders. It should also contain the same test folder as was when you download the assignment 3 zip file.
+Submit on Brightspace a zip file named "A3_complete_NYUnetID" containing your project folder called "A3_project_directory_NYUnetID", where NYUnetID should be replaced with your actual NYU net ID. The project folder should contain your source code and compiled code within the src and bin folders. It should also contain the same test folder as was when you download the assignment 3 zip file.
