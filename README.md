@@ -44,7 +44,7 @@ so        / 138 occurrences    / 50% of all tics
 
 ## Requirements
 
-- The program must be able to analyze any text file, but an example file must be included in the submission.
+- The program must be able to analyze any text file, but an example file must be included in the submission. For convenience, the text file `trump_speech_010621.txt` was included in the data folder, and you may use it as the example file.
 - The user must be able to enter as many tics as they would like, separated by commas, with or without spaces.
 - Those tics can be assumed to be single words, such as "uh" and "like", and not multi-word tics such as "uh huh" and "you know".
 - The list of tics entered by the user must be stored in an array, not an ArrayList or any other array-like data structure.
