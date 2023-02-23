@@ -4,7 +4,7 @@ A little exercise to parse text from a text file in Java.
 
 ## Background
 
-You work evenings as an intern in a historical semantics research institute. Your boss would like you to build a program to analyze the frequency of [verbal tics](http://www.newser.com/story/131668/speech-habits-of-psychopaths-analyzed-in-study.html) in historical recorded speech.
+You work evenings as an intern in a historical semantics research institute. Your boss would like you to build a program to analyze the frequency of verbal tics in historical recorded speech.
 
 The institute has hired a firm to convert the recorded [speech into text](https://en.wikipedia.org/wiki/Speech_recognition). Now you need to be able to take these text transcripts and analyze them for verbal tics.
 
