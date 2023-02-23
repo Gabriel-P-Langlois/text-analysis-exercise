@@ -4,9 +4,9 @@ A little exercise to parse text from a text file in Java.
 
 ## Background
 
-You work evenings as an unpaid intern in a historical semantics research institute. Your boss, an absent-minded computer-illiterate professor of linguistics (a vestige from a bygone era), would like you to build a program to analyze the frequency of [verbal tics](http://www.newser.com/story/131668/speech-habits-of-psychopaths-analyzed-in-study.html) in historical recorded speech.
+You work evenings as an intern in a historical semantics research institute. Your boss would like you to build a program to analyze the frequency of [verbal tics](http://www.newser.com/story/131668/speech-habits-of-psychopaths-analyzed-in-study.html) in historical recorded speech.
 
-The institute has hired a [Hyderabad, India](https://en.wikipedia.org/wiki/Hyderabad,_India)-based firm to convert the recorded [speech into text](https://en.wikipedia.org/wiki/Speech_recognition). Now you need to be able to take these text transcripts and analyze them for verbal tics.
+The institute has hired a firm to convert the recorded [speech into text](https://en.wikipedia.org/wiki/Speech_recognition). Now you need to be able to take these text transcripts and analyze them for verbal tics.
 
 ## The program
 
@@ -126,25 +126,7 @@ If you have trouble running the tests from within Visual Studio Code, you can do
 java -cp "bin:lib/*" org.junit.runner.JUnitCore edu.nyu.cs.TestClassName
 ```
 
-Windows users should replace the `:` in `"bin:lib/*"` with a semi-colon, `;`, i.e. `"bin;lib/*"`
+Windows users should replace the `:` in `"bin:lib/*"` with a semi-colon, `;`, i.e. `"bin;lib/*"`. You may also have to add the flag --enable-preview in front of java to make it work.
 
 ## How to submit this assignment
-
-Once you have completed the changes to th assignment, you are ready to submit it. Do this from within Visual Studio Code.
-
-1. Click on the `Source Control` icon in the left activity bar in Visual Studio Code.
-1. In the Source Control side bar, you will see a field named `Message` - type in a unique message about what you have done, e.g. "_Finished assignment!_" or whatever you want to write as a short note to yourself.
-1. Hover over the words `Source Control`. You will see a `...` icon appear - click it to see a menu. In that menu, click `Commit`->`Commit`. This logs the changes you've made to the Git project - remember Git is used to keep track of changes.
-1. Go to the same menu and click `Push` to submit your assignment - this uploads your updated files to the copy of your respository on GitHub.
-
-![Push changes to GitHub](./images/how_to_push_changes_to_github_from_vscode.png)
-
-That's it... you're done.
-
-## Double-check your submission
-
-Prove to yourself that you have correctly submitted by viewing your repository on the GitHub website - you should see your completed README.md file there.
-
-## Resubmit as many times as you want
-
-You can re-submit as many times as you want before the deadline. Just make changes to the files on your own computer and repeat the process outlined above to upload them to GitHub.
+Submit on Brightspace a zip file named "A3_complete_NYUnetID" containing your project folder called "A2_project_directory_NYUnetID", where NYUnetID should be replaced with your actual NYU net ID. The project folder should contain your source code and compiled code within the src and bin folders. It should also contain the same test folder as was when you download the assignment 3 zip file.
